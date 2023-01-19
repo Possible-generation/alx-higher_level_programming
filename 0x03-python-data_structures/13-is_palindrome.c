@@ -28,10 +28,11 @@ int is_palindrome(listint_t **head)
     for (; i < len_cyc; i = i + 2)
     {
         if (start[i].n != end[len_list].n)
-           return (0);
+            return (0);
 
         len_list = len_list - 2;
     }
+
     return (1);
 }
 
@@ -58,6 +59,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 			++iter_times;
 		}
 	}
+
 	return (NULL);
 }
 
@@ -76,5 +78,6 @@ size_t listint_len(const listint_t *h)
 		++lenght;
 		h = h->next;
 	}
+
 	return (lenght);
 }
