@@ -48,8 +48,8 @@ testing function with scalar division with floats
 >>> matrix_divided([[1.2, 2.2, 3.2], [4.2, 5.2, 6.2]], 1.2)
 [[1.0, 1.83, 2.67], [3.5, 4.33, 5.17]]
 
-TEST CONDITIONS WHERE AN ERROR IS RAISED
 
+TEST CONDITIONS WHERE AN ERROR IS RAISED
 ========================================
 
 testing how function handles None argument
